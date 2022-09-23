@@ -17,7 +17,6 @@ classifiers = [
     "Intended Audience :: Developers",
     "Operating System :: Unix",
     "Topic :: Software Development :: Quality Assurance",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
@@ -38,7 +37,7 @@ include = [
 prospector = 'prospector.run:main'
 
 [tool.poetry.dependencies]
-python = ">=3.6.2,<4.0"
+python = ">=3.7,<4.0"
 pylint = ">=2.8.3"
 pylint-celery = "0.3"
 pylint-django = "~2.5"
